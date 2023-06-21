@@ -5,4 +5,5 @@ from django.shortcuts import render
 
 
 def sova_index(request: HttpRequest):
-    return HttpResponse("привет")
+    # return HttpResponse("привет")
+    return render(request, "sovamain/sova-index.html")
